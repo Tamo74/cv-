@@ -1,0 +1,171 @@
+/* =====================================
+   Portfolio CSS Template
+   Author: [Your Name]
+   ===================================== */
+
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+  background: #002b5b;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffb703;
+}
+
+/* ===== Section Styles ===== */
+section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Headings ===== */
+section h2 {
+  color: #002b5b;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #ffb703;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ===== About Section ===== */
+#about p {
+  font-size: 1.1rem;
+}
+
+/* ===== Projects Section ===== */
+.project {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 4px solid #ffb703;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.project h3 {
+  color: #002b5b;
+  margin-bottom: 8px;
+}
+
+.project a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* ===== about me section ===== */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: #002b5b;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ===== Code Samples ===== */
+pre {
+  background: #1e1e1e;
+  color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.95rem;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  color: #002b5b;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+#contact a:hover {
+  color: #ffb703;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #002b5b;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 30px 10px;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
