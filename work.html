@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oluwatamilore Ojo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work Experience - Oluwatamilore Ojo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
-<body style="margin: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-color: #fff;">
 
-  <header style="position: absolute; top: 20px;">
+<body style="margin:0; background-color:#fce4ec; font-family:'Poppins',sans-serif; color:#222; text-align:center;">
+
+  <!-- Header -->
+  <header style="padding:20px 0; font-weight:500;">
     <nav>
-      <a href="main.html">Home</a> |
-      <a href="about.html">About Me</a> |
-      <a href="project.html">Projects</a> |
-      <a href="work.html">Work Experience</a> |
-      <a href="contact.html">Contact Me</a>
+      <a href='main.html' style='margin:0 10px;text-decoration:none;color:#333;'>Home</a> |
+      <a href='about.html' style='margin:0 10px;text-decoration:none;color:#333;'>About Me</a> |
+      <a href='project.html' style='margin:0 10px;text-decoration:none;color:#333;'>Projects</a> |
+      <a href='work.html' style='margin:0 10px;text-decoration:none;color:#333;'>Work Experience</a> |
+      <a href='contact.html' style='margin:0 10px;text-decoration:none;color:#333;'>Contact Me</a>
     </nav>
-</header>
-</body>
-<main>
-    <div style="position: relative; display: inline-block;">
-      <!-- Overlay image -->
-      <img src="pink.png" alt="Pink overlay" 
-           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-                  width: 450%; opacity: 0.4; z-index: 0;">
-      <!-- Name -->
-      <h1 style="position: relative; z-index: 1; color: black; font-size: 3rem; font-family: Arial, sans-serif; margin: 0;">
-        Work Experience
-      </h1>
-      <h3>
+  </header>
+
+  <!-- Main Content -->
+  <main style="display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:80vh; position:relative;">
     
-      </h3>
+    <!-- Subtle pink overlay -->
+    <img src="pink.png" alt="Pink overlay"
+         style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+                width:600px; opacity:0.25; z-index:0;">
+    
+    <div style="background-color:rgba(255,255,255,0.8); border-radius:15px; padding:40px; 
+                max-width:800px; margin:auto; z-index:1; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+      <h1 style="font-size:2.5rem; margin-bottom:25px;">Work Experience</h1>
+
+      <div style="text-align:left; line-height:1.7; font-size:1.1rem;">
+
+        <h2 style="font-size:1.4rem; margin-bottom:5px;">SOC Analyst Intern</h2>
+        <p style="margin:0; font-weight:500;">Quorum Cyber, Edinburgh — <i>July 2025 – August 2025</i></p>
+        <ul style="margin:10px 0 25px 25px; padding:0;">
+          <li>Developed a comprehensive SOC playbook to guide response to Business Email Compromise incidents.</li>
+          <li>Designed and implemented KQL queries for faster incident detection and triage.</li>
+          <li>Collaborated in a team of six to research Business Email Compromise.</li>
+          <li>Authored a user guide to support new analysts, improving knowledge transfer and consistency.</li>
+        </ul>
+
+        <h2 style="font-size:1.4rem; margin-bottom:5px;">Software Engineer Intern</h2>
+        <p style="margin:0; font-weight:500;">Canon Medical Research Europe, Edinburgh — <i>July 2023</i></p>
+        <ul style="margin:10px 0 0 25px; padding:0;">
+          <li>Collaborated in a five-member team to develop a diagnostic app using Python for detecting cardiomegaly.</li>
+          <li>Contributed to feature implementation, testing, and debugging, improving accuracy and performance.</li>
+          <li>Created technical documentation and presented updates to cross-functional teams.</li>
+        </ul>
+
+      </div>
     </div>
+  </main>
+</body>
 </html>
