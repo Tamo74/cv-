@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Oluwatamilore ojo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oluwatamilore Ojo</title>
 </head>
-<body>
-<header>
+<body style="margin: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background-color: #fff;">
+
+  <header style="position: absolute; top: 20px;">
     <nav>
-        <a href="main.html">Home</a> |
-        <a href="about.html">About Me</a> |
-        <a href="project.html">Projects</a> |
-        <a href="work.html">Work Experience</a>
-        <a href="contact.html">Contact Me</a>
+      <a href="main.html">Home</a> |
+      <a href="about.html">About Me</a> |
+      <a href="project.html">Projects</a> |
+      <a href="work.html">Work Experience</a> |
+      <a href="contact.html">Contact Me</a>
     </nav>
-</header>
+  </header>
 
-<main>
-    <div class="container">
-        <h1>Oluwatamilore Ojo</h1>
-        <h1>Welcome to My Portfolio</h1> 
-        <p>This is the main page of my portfolio website. Here you can find information about me, my projects, and my work experience.</p>
-
+  <main style="position: relative; text-align: center;">
+    <div style="position: relative; display: inline-block;">
+      <!-- Overlay image -->
+      <img src="pink.png" alt="Pink overlay" 
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+                  width: 450%; opacity: 0.4; z-index: 0;">
+      <!-- Name -->
+      <h1 style="position: relative; z-index: 1; color: black; font-size: 3rem; font-family: Arial, sans-serif; margin: 0;">
+        Oluwatamilore Ojo
+      </h1>
     </div>
-</main>
+  </main>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
 </html>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.body.style.backgroundColor = '#f595b0';
+});
+</script>
